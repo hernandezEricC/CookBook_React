@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
 /**
@@ -16,7 +16,8 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* This stuff should really be placed into a separate component. Right? */}
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -24,17 +25,19 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-      </div>
+      </div> */}
 
       <h1>My Cook Book</h1>
 
       <div className="card">
+        {/* Remove count stuff once we start working on user authentication */}
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Login
         </button>
 
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          {/* Remove count stuff once we start working on user authentication */}
+          Login Attempts: {count}
         </p>
       </div>
 
